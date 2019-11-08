@@ -12,7 +12,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="wwwroot\**\*" />
-    <PackageReference Include="Penguin.Testing" Version="1.1.9-T9M4A3K" />
+    <PackageReference Include="Penguin.Testing" Version="1.1.9-T9MJL4F" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="wwwroot\**\*" />

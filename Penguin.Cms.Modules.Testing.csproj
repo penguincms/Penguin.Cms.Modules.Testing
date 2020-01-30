@@ -9,6 +9,7 @@
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Cms.Modules.Testing</AssemblyName>
     <RootNamespace>Penguin.Cms.Modules.Testing</RootNamespace>
+    <DocumentationFile>Penguin.Cms.Modules.Testing.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="wwwroot\**\*" />

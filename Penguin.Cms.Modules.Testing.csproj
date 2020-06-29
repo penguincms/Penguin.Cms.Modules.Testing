@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Modules.Testing</PackageProjectUrl>
-    <Version>1.0.0</Version>
+    <Version>5.0.0</Version>
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Cms.Modules.Testing</AssemblyName>
     <RootNamespace>Penguin.Cms.Modules.Testing</RootNamespace>
@@ -14,7 +14,7 @@
   <ItemGroup>
     <Content Remove="wwwroot\**\*" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="3.1.1" />
-    <PackageReference Include="Penguin.Testing" Version="1.1.9-T9XYC7H" />
+    <PackageReference Include="Penguin.Testing" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="wwwroot\**\*" />

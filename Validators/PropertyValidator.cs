@@ -10,6 +10,11 @@ namespace Penguin.Cms.Modules.Testing.Validators
     {
         public virtual ValidationResults Validate(params Type[] toValidate)
         {
+            if (toValidate is null)
+            {
+                throw new ArgumentNullException(nameof(toValidate));
+            }
+
             ValidationResults Result = new ValidationResults();
 
             List<string> PropertyNames = new List<string>();

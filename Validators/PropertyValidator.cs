@@ -1,5 +1,5 @@
-﻿using Penguin.Testing.Interfaces;
-using Penguin.Testing.RuntimeValidation;
+﻿using Penguin.Testing.RuntimeValidation;
+using Penguin.Testing.RuntimeValidation.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -4,12 +4,24 @@ namespace Penguin.Cms.Modules.Testing.Controllers
 {
     public partial class TestController : Controller
     {
-        public ActionResult ClearCookiesStorage() => this.View();
+        public ActionResult ClearCookiesStorage()
+        {
+            return View();
+        }
 
-        public ActionResult ClearLocalStorage() => this.View();
+        public ActionResult ClearLocalStorage()
+        {
+            return View();
+        }
 
-        public ActionResult ClearSessionStorage() => this.View();
+        public ActionResult ClearSessionStorage()
+        {
+            return View();
+        }
 
-        public ActionResult ClearStorage() => this.View();
+        public ActionResult ClearStorage()
+        {
+            return View();
+        }
     }
 }

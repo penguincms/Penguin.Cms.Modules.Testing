@@ -15,9 +15,9 @@ namespace Penguin.Cms.Modules.Testing.Validators
                 throw new ArgumentNullException(nameof(toValidate));
             }
 
-            ValidationResults Result = new ValidationResults();
+            ValidationResults Result = new();
 
-            List<string> PropertyNames = new List<string>();
+            List<string> PropertyNames = new();
 
             foreach (Type t in toValidate)
             {
@@ -29,7 +29,7 @@ namespace Penguin.Cms.Modules.Testing.Validators
 
             foreach (Type t in toValidate)
             {
-                List<string> theseProperties = new List<string>();
+                List<string> theseProperties = new();
                 theseProperties.AddRange(t.GetProperties().Select(p => p.Name).ToList());
                 theseProperties.AddRange(t.GetFields().Select(p => p.Name).ToList());
 
@@ -50,6 +50,9 @@ namespace Penguin.Cms.Modules.Testing.Validators
             return Result;
         }
 
-        public virtual ValidationResults Validate() => throw new NotImplementedException();
+        public virtual ValidationResults Validate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
